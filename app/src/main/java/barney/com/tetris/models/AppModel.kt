@@ -11,7 +11,7 @@ class AppModel {
     var score: Int = 0
     private var preferences: AppPreferences? = null
 
-    private var currentBlock: Block? = null
+    var currentBlock: Block? = null
     var currentState: String = Statuses.AWAITING_START.name
 
     private var field: Array<ByteArray> = array2dOfByte(
